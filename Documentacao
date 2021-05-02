@@ -1,0 +1,32 @@
+Para testar o projeto, é necessário ter o NodeJS instalado na máquina, o REACT também é necessário estar instalado.
+Após descompacta-lo use os comandos abaixo:
+- npm install ( este comando irá instalar todas as dependências do projeto )
+- npm start ( este comando irá executar o projeto )
+
+Este arquivo foi feito com o propósito de explicar brevemente o código criado.
+O projeto resumidamente é um sistema com login e cadatro, criação de contatos com a possibilidade de favorita-los.
+
+Projeto é composto dos seguintes arquivos/telas:
+*** Nos arquivos Javascript listados abaixo, representam a lógica e a tela ***
+
+** App.js
+    - É a tela inicial do projeto, este arquivo representa a tela de login e toda a lógica atrelada a mesma.
+
+** Cadastro.js
+    - É a tela de cadastro do projeto e a lógica atrelada ao cadastro de usuários,
+
+** Header.js
+    - Componente modular que é utilizado em todas telas como o cabeçalho do projeto.
+
+** Alert.js
+    - Componente modular que é utilizado para gerar mensagens de alerta de acordo com a ação utilizada, este arquivo é chamado em todas telas.
+
+** Painel.js
+    - Tela com permissionamento ( somente é possível entrar na mesma com Login realizado e devidamente autenticado ), é a tela inicial e 
+    principal após o login. Nela é possível cadastrar um novo contato, excluir contato, favoritar ou desfavoritar um contato.
+
+** Favorito.js
+    - Tela com permissionamento ( somente é possível entrar na mesma com Login realizado e devidamente autenticado ), tela de consulta nos contatos favoritados
+
+** App.css
+    - Arquivo com o estilo, um arquivo que estiliza o projeto globalmente.
